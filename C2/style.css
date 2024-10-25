@@ -1,0 +1,8 @@
+.image-container {
+  position: relative;
+}
+
+.card {
+  position: absolute;
+  transition: opacity 0.3s ease-in-out;
+}
