@@ -25,7 +25,7 @@ function startTimer() {
 
     timerInterval = setInterval(() => {
         centiseconds++;
-        if (centiseconds >= 100000) { // Max value: 999:59
+        if (centiseconds >= 100000) { 
             clearInterval(timerInterval);
             isRunning = false;
             return;
