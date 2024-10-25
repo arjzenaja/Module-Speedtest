@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Messenger Mockup</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <!-- Dialog List Screen -->
+  <section class="screen" id="dialog-list">
+    <header>Messenger</header>
+    <ul class="dialogs">
+      <li class="dialog">
+        <img src="avatar1.png" alt="Avatar" class="avatar">
+        <div class="info">
+          <h3 class="name">John Doe</h3>
+          <p class="preview">Hey, how are you?</p>
+        </div>
+      </li>
+      <!-- Add more dialogs as needed -->
+    </ul>
+    <button class="new-message">+</button>
+  </section>
+
+  <!-- Chat Screen -->
+  <section class="screen" id="chat-screen">
+    <header class="chat-header">
+      <img src="avatar1.png" alt="Avatar" class="avatar">
+      <h2 class="name">John Doe</h2>
+      <button class="menu">⋮</button>
+    </header>
+    
+    <article class="messages">
+      <p class="message received">Hello! How are you?</p>
+      <p class="message sent">I'm good, thank you! How about you?</p>
+      <!-- Add more messages as needed -->
+    </article>
+
+    <footer class="chat-input">
+      <input type="text" placeholder="Type a message...">
+      <button class="send">Send</button>
+    </footer>
+  </section>
+</body>
+</html>
