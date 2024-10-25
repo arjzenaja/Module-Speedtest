@@ -12,7 +12,7 @@ let direction = 1;
 
 
 function drawCircle() {
-    ctx.clearRect(0, 0, canvas.width, canvas.height); // clear canvas before redrawing
+    ctx.clearRect(0, 0, canvas.width, canvas.height); 
     ctx.beginPath();
     ctx.arc(x, canvas.height / 2, radius, 0, Math.PI * 2);
     ctx.fillStyle = "white";
